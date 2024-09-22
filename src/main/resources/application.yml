@@ -1,0 +1,63 @@
+server:
+  port: 8081
+
+
+spring:
+  profiles:
+    active: 
+      - dev
+      - qa
+  application:
+    name: "book-store"
+  datasource:
+    url: "jdbc:mysql://localhost:3310/sb_july"
+    username: "root"
+    password: "or02r5780"
+
+
+application:
+  title: "book-store"
+  version: 1.0
+
+
+logging:
+  level:
+    org.raaj.book_store.service: DEBUG
+
+
+upload:
+  file:
+    name:
+      dir: "images"
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# spring.application.name=book-store
+# server.port=8081
+# application.title = Your Bookshelf
+# application.version = 1.0
+
+# spring.datasource.url=jdbc:mysql://localhost:3310/sb_july
+# spring.datasource.username=root
+# spring.datasource.password=or02r5780
+
+
+# logging.level.org.raaj.book_store.service = DEBUG
+
+# upload.file.name.dir = images

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color-scheme: dark white;
+    color: #F9DBBA;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    background-color: #1F316F;
+}
+
+header {
+    background-color: #1A4870;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+}
+
+main {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+main nav {
+    text-align: right;
+}
+
+section {
+    margin-block: 1rem;
+}
+
+a {
+    color: #F9DBBA;
+}
+
+@media(max-width:900px) {
+    main {
+        width: 90%;
+    }
+}

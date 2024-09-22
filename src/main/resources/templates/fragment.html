@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head data-th-fragment="head(links)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <title>Pustak Mahal</title>
+    <link rel="icon" href="/images/book.png">
+
+    <link data-th-replace="${links}" />
+</head>
+
+<body>
+    <header data-th-fragment="header" class="flex-align-center-1">
+        <img src="/images/book.png " alt="..." height="80" width="80">
+        <h1>Your Bookshelf</h1>
+    </header>
+
+    <nav data-th-fragment="nav(url, title)">
+        <a data-th-href="${url}" data-th-text="${title}"></a>
+    </nav>
+</body>
+
+</html>
